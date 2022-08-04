@@ -4,11 +4,11 @@
 # This source code is licensed under the MIT license found in the
 # LICENSE file in the root directory of this source tree.
 
-if [ "$DEBUG" = true ]; then
-  BUILD_TYPE="Debug"
-else
+# if [ "$DEBUG" = true ]; then
+  # BUILD_TYPE="Debug"
+# else
   BUILD_TYPE="Release"
-fi
+# fi
 
 function command_exists {
   command -v "${1}" > /dev/null 2>&1
